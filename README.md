@@ -8,6 +8,14 @@ Original with the data dictionary: [link](https://sorry.vse.cz/~berka/challenge/
 
 In the data table `loan.csv`, the data from the different tables was preprocessed where the transaction data was aggregated by monthly amount.
 
+## Prerequisite
+
+The notebook, `bank_loan.ipynb`, is written in Python 3. The libraries that are used in this notebook are listed under the `requirements.txt` file. One can simply issue to following command to insure the proper libraries are installed:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Description of analysis
 
 The analysis consists of a brief explanatory analysis where distributions of predictors were examined. It also consists of how the bank loan risk was modeled using a random forest classifier where a F1-score of 85% on predicting high-risk clients. SHAP analysis was performed to further understand how the main predictors that impact the model output and to obtain insights for business recommendations. Adjusting the class weights was necessary to resolve the imbalance issue of the original data set. Summary of results were put together and can be found in the `slides.pdf` in this repo.
