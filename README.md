@@ -13,7 +13,7 @@ In the data table `loan.csv`, the data from the different tables was preprocesse
 The notebook, `bank_loan.ipynb`, is written in Python 3. The libraries that are used in this notebook are listed under the `requirements.txt` file. One can simply issue to following command to insure the proper libraries are installed:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Description of analysis
