@@ -8,6 +8,11 @@ Original with the data dictionary: [link](https://sorry.vse.cz/~berka/challenge/
 
 In the data table `loan.csv`, the data from the different tables was preprocessed where the transaction data was aggregated by monthly amount.
 
+Some research questions and deliverables:
+* What is the current state of loans for this bank? (e.g., how much loan was approved?)
+* What is the potential loss from default?
+* What characteristics of a client are crucial in determining whether a loan should be approved or not?
+
 ## Prerequisite
 
 The notebook, `bank_loan.ipynb`, is written in Python 3. The libraries that are used in this notebook are listed under the `requirements.txt` file. One can simply issue to following command to insure the proper libraries are installed:
